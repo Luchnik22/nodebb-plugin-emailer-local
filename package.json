@@ -1,31 +1,31 @@
 {
-    "name": "nodebb-plugin-emailer-local",
-    "version": "0.1.4",
-    "description": "NodeBB plugin to send emails via an SMTP service",
-    "keywords": [
-        "nodebb",
-        "email",
-        "emailer",
-        "smtp"
-    ],
-    "homepage": "https://github.com/NodeBB/nodebb-plugin-emailer-local",
-    "bugs": {
-        "url": "https://github.com/Luchnik22/nodebb-plugin-emailer-local/issues",
-        "email": "oleg@loutchansky.com"
-    },
-    "license": "MIT",
-    "author": {
-        "name": "Alfred Dobradi",
-        "email": "alfred@brvy.me",
-        "url": "http://blog.brvy.me"
-    },
-    "dependencies": {
-        "nodemailer": "~0.6.0",
-        "path": "~0.4.9"
-    },
-    "main": "index.js",
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/Luchnik22/nodebb-plugin-emailer-local.git"
-    }
+  "name": "nodebb-plugin-emailer-local",
+  "version": "0.1.4",
+  "description": "NodeBB plugin to send emails via an SMTP service",
+  "keywords": [
+    "nodebb",
+    "email",
+    "emailer",
+    "smtp"
+  ],
+  "homepage": "https://github.com/NodeBB/nodebb-plugin-emailer-local",
+  "bugs": {
+    "url": "https://github.com/Luchnik22/nodebb-plugin-emailer-local/issues",
+    "email": "oleg@loutchansky.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Alfred Dobradi",
+    "email": "alfred@brvy.me",
+    "url": "http://blog.brvy.me"
+  },
+  "dependencies": {
+    "nodemailer": "~1.0.0",
+    "path": "~0.4.9"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Luchnik22/nodebb-plugin-emailer-local.git"
+  }
 }
